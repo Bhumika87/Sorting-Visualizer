@@ -8,15 +8,15 @@
 }
 
 nav {
-  background-color: #3b3a3a;
-  color: white;
+  background-color: #010113;
+  color: rgb(255, 255, 255);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 60%;
       grid-template-columns: 30% 60%;
   -webkit-column-gap: 10%;
           column-gap: 10%;
-  padding: 0% 5%;
+  padding: 0% 1%;
 }
 
 nav .array-inputs {
@@ -62,7 +62,7 @@ nav .header_right {
 nav .header_right .nav-heading {
   display: inline-block;
   font-size: xxx-large;
-  padding: 3% 0%;
+  padding: 3% 15%;
 }
 
 nav .header_right .algos {
@@ -84,7 +84,7 @@ nav .header_right .algos button {
 }
 
 nav .header_right .algos button:hover {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.504);
   cursor: pointer;
 }
 
